@@ -5,7 +5,7 @@ $(document).ready(function() {
   const $messageElement = $("#message");
   const message = "Hello langggingggg, this is for you!";
   let index = 0;
-  $("#message").css('font-size', '40px');
+  $("#message").css('font-size', '20px');
   function typeWriter() {
       if (index < message.length) {
           $messageElement.text($messageElement.text() + message.charAt(index));
