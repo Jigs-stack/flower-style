@@ -3,7 +3,7 @@ var hiddenButton = $('#action-button').hide();
 var hiddenAnotherMessage = $('.another-message').hide();
 $(document).ready(function() {
   const $messageElement = $("#message");
-  const message = "Hello langggingggg, this is for you!";
+  const message = "Hello langga!, this is for you!";
   let index = 0;
   $("#message").css('font-size', '20px');
   function typeWriter() {
