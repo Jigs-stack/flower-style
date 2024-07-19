@@ -1,8 +1,7 @@
-alert("Please turn up your volume to max, and also please wait for the music to play :) <3");
-
 var hiddenButton = $('#action-button').hide();
 var hiddenAnotherMessage = $('.another-message').hide();
 $(document).ready(function() {
+  window.alert("Please turn up your volume to max, and also please wait for the music to play :) <3");
   const $messageElement = $("#message");
   const message = "Hello langga!, this is for you!";
   let index = 0;
