@@ -1,2 +1,2 @@
 # flower-style
-Flower style with hiding elements
+Flower Website with .hide effects and music Palagi ;)
