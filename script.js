@@ -2,7 +2,7 @@ var hiddenButton = $('#action-button').hide();
 var hiddenAnotherMessage = $('.another-message').hide();
 $(document).ready(function() {
   const $messageElement = $("#message");
-  const message = "Hello langga!, this is for you. And also wait for the music after clicking the button click me";
+  const message = "Hello langga!, this is for you. Hope you like it";
   let index = 0;
   $("#message").css('font-size', '20px');
   function typeWriter() {
@@ -24,7 +24,7 @@ var hiddenFlowers = $("#body").hide();
 
 $("#action-button").click(function() {
   hiddenFlowers.show();
-  playMusic(palagi, 60);
+  playMusic("palagi", 15);
   var hiddenContainer = $('.wrapper').hide();
   const c = setTimeout(() => {
     $("#body").removeClass("not-loaded");
@@ -39,9 +39,8 @@ $("#action-button").click(function() {
 
 
 function playMusic(name, seconds){
-  var audio = new Audio(name + ".mp3");
+  var audio = new Audio("./" + name + ".mp3");
   audio.currentTime = seconds;
   audio.play();
 };
   
-
