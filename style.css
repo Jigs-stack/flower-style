@@ -56,14 +56,14 @@ body {
 
 .another-message{
   position: absolute;
-  top: 160px; /* Adjust as needed */
+  top: 250px; /* Adjust as needed */
   left: 50%; /* Center horizontally */
   transform: translateX(-50%);
   text-align: center;
   width: 80%; /* Adjust width as needed */
   max-width: 600px; /* Example maximum width */
   background-color: rgba(255, 255, 255, 0.8); /* Example background color */
-  padding: 20px;
+  padding: 50px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Example box shadow */
   z-index: 10p;
@@ -72,9 +72,9 @@ body {
 }
 #action-button {
   margin-top: 20px; /* Adjust this value as needed to control the spacing */
-  width: 130px;      /* Set the width of the button */
-  height: 40px;     /* Set the height of the button */
-  border-radius: 3%; /* Make the button round */
+  width: 170px;      /* Set the width of the button */
+  height: 70px;     /* Set the height of the button */
+  border-radius: 3.5%; /* Make the button round */
   border: purple;     /* Optional: remove border */
   background-color: whitesmoke; /* Set your desired background color */
   color: black;     /* Set the text color */
