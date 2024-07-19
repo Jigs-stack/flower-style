@@ -1,5 +1,6 @@
 var hiddenButton = $('#action-button').hide();
 var hiddenAnotherMessage = $('.another-message').hide();
+
 $(document).ready(function() {
   const $messageElement = $("#message");
   const message = "Hello langga!, this is for you. Hope you like it";
@@ -25,7 +26,7 @@ var hiddenFlowers = $("#body").hide();
 $("#action-button").click(function() {
   hiddenFlowers.show();
   playMusic("palagi", 15);
-  var hiddenContainer = $('.wrapper').hide();
+  $('.wrapper').hide();
   const c = setTimeout(() => {
     $("#body").removeClass("not-loaded");
     clearTimeout(c);
