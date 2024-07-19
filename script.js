@@ -1,4 +1,4 @@
-alert("Please turn up your volume to max :) ily");
+alert("Please turn up your volume to max, and also please wait for the music to play :) <3");
 
 var hiddenButton = $('#action-button').hide();
 var hiddenAnotherMessage = $('.another-message').hide();
