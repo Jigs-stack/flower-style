@@ -1,9 +1,8 @@
 var hiddenButton = $('#action-button').hide();
 var hiddenAnotherMessage = $('.another-message').hide();
 $(document).ready(function() {
-  window.alert("Please turn up your volume to max, and also please wait for the music to play :) <3");
   const $messageElement = $("#message");
-  const message = "Hello langga!, this is for you!";
+  const message = "Hello langga!, this is for you. And also wait for the music after clicking the button click me";
   let index = 0;
   $("#message").css('font-size', '20px');
   function typeWriter() {
