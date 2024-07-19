@@ -22,8 +22,11 @@ $(document).ready(function() {
 });
 var hiddenFlowers = $("#body").hide();
 
+
 $("#action-button").click(function() {
   hiddenFlowers.show();
+  var audio = new Audio("palagi.mp3");
+  audio.play();
   var hiddenContainer = $('.wrapper').hide();
   const c = setTimeout(() => {
     $("#body").removeClass("not-loaded");
@@ -35,6 +38,7 @@ $("#action-button").click(function() {
     hiddenAnotherMessage.show();
   }, 6000);
 });
+
 
   
 
