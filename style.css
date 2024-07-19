@@ -249,7 +249,7 @@ body {
   width: 9vmin;
   height: 4vmin;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: purple;
 }
 
 .flower__white-circle::after {
