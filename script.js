@@ -24,8 +24,7 @@ var hiddenFlowers = $("#body").hide();
 
 $("#action-button").click(function() {
   hiddenFlowers.show();
-  var audio = new Audio("palagi.mp3");
-  playFrom(18);
+  playMusic(palagi, 60);
   var hiddenContainer = $('.wrapper').hide();
   const c = setTimeout(() => {
     $("#body").removeClass("not-loaded");
@@ -39,9 +38,10 @@ $("#action-button").click(function() {
 });
 
 
-function playFrom(seconds){
+function playMusic(name, seconds){
+  var audio = new Audio(name + ".mp3");
   audio.currentTime = seconds;
   audio.play();
-}
+};
   
 
